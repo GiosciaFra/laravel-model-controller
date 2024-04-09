@@ -11,7 +11,7 @@ class PageController extends Controller
     public function index()
     {
 
-        $movies = Movie::all();
+        $movies = Movie::orderBy('vote', 'desc')->get();
 
         // dd($movies);
         return view("home", compact("movies"));

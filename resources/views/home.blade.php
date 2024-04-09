@@ -5,6 +5,7 @@
 <div class="container py-5">
 
     <h1 class="text-center pb-5 text-uppercase text-primary ">Ecco i film nel nostro database!</h1>
+    
 
     <div class="d-flex flex-wrap gap-4 ">
 
@@ -18,7 +19,7 @@
                 <p class="card-text first-letter"><strong>Nazionalità:</strong> {{$movie->nationality}}</p>
                 <p class="card-text"><strong>Data di Uscita:</strong> {{$movie->date}}</p>
 
-                <p class="card-text"><strong>Voto iMDb:</strong> {{$movie->vote}}/10</p>
+                <p class="card-text"><strong>Valtazione iMDb:</strong> {{$movie->vote}}/10</p>
 
             </div>
             
